@@ -34,7 +34,10 @@ public class CalculatorModelTest {
 		assertEquals(2.0, calc.operationDiv(2.0, 1.0), 0.1);
 	} 
 
-	
+	@Test
+	public void shouldMultFiveBySix() {
+		assertEquals(30.0, calc.operationMult(5.0, 6.0), 0.1);
+	}
 
 
 }
